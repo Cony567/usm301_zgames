@@ -18,7 +18,7 @@ class CrearTablaJuegos extends Migration
             //1.definir los campos de la tabla juegos
             $table->string("nombre",100);
             $table->string("descripcion",200); //laravel eloquent,, tipos de datos,, database:Migration
-            $table->tinyInteger("aptoninios")->default(0);
+            $table->tinyInteger("apto_ninios")->default(0);
             $table->integer("precio")->unsigned();
             $table->date("fecha_lanzamiento");
             //2.Agregar la  columna  de la foranea
